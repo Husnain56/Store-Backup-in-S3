@@ -75,7 +75,7 @@ This user would use python to configure AWS using Boto3
   1. Enter your own bucket name or use already existing bucket (Comment create function bucket in this case)
   2. Enter your own region in region variable or just keep it the same if you followed the AWS CLI configuration above
   3. You can enter the name you want for your file in S3 bucket in variable "file_name"
-  4. Add full path to your file in "file_path" variable (don't forget to use '/' instead of '\')
+  4. Add full path to your file in "file_path" variable ( use '/' instead of ' \ ')
 
   
 

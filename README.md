@@ -1,5 +1,3 @@
-<img width="1543" height="815" alt="image" src="https://github.com/user-attachments/assets/9eeaf689-74bf-4658-b740-be68d306ef6c" /># Store-Backup-in-S3
-
 #Create a new IAM user or use existing one
 
 This user would use python to configure AWS using Boto3

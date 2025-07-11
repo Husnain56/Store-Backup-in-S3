@@ -1,8 +1,10 @@
-#Create a new IAM user or use existing one
+# Store Backup in Amazon S3 bucket
+
+# Create a new IAM user or use existing one
 
 This user would use python to configure AWS using Boto3
 
-#Steps to create a IAM user:
+# Steps to create a IAM user:
 
   1.Search AMI in AWS Console
   <img width="1347" height="862" alt="image" src="https://github.com/user-attachments/assets/d7864e2d-c733-46fe-b248-e1ed7b36a473" />

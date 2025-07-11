@@ -1,6 +1,6 @@
 # Store Backup in Amazon S3 bucket
 
-# Create a new IAM user or use existing one
+# Create a new IAM user or use existing one (Skip this step if you already have an IAM User)
 
 This user would use python to configure AWS using Boto3
 
@@ -30,7 +30,7 @@ This user would use python to configure AWS using Boto3
       
   <img width="1692" height="715" alt="image" src="https://github.com/user-attachments/assets/a0f03058-7fe7-4d0a-8044-a08f2b6565c5" />
 
-# Connect our System to AWS
+# Connect our System to AWS (Skip this step if you have already configured AWS CLI)
 
   !Install AWS CLI from here: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
    Boto3 Library: pip install Boto3
@@ -68,6 +68,13 @@ This user would use python to configure AWS using Boto3
   <img width="442" height="55" alt="image" src="https://github.com/user-attachments/assets/991a3e81-2c57-4cfd-aed1-602ff6a130c2" />
 
   Now we have connected our system to AWS 
+
+# Copy Python script or clone the repository
+
+  1. Enter your own bucket name or use already existing bucket (Comment create function bucket in this case)
+  2. Enter your own region in region variable or just keep it the same if you followed the AWS CLI configuration above
+  3. You can enter the name you want for your file in S3 bucket in variable "file_name"
+  4. Add full path to your file in "file_path" variable (don't forget to use '/' instead of '\')
 
   
 

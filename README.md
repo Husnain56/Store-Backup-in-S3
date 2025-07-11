@@ -4,7 +4,7 @@
 
 This user would use python to configure AWS using Boto3
 
-# Steps to create a IAM user:
+# Steps to Create a IAM user:
 
   1.Search AMI in AWS Console
   
@@ -29,6 +29,66 @@ This user would use python to configure AWS using Boto3
   6. Review the details and click Create user
       
   <img width="1692" height="715" alt="image" src="https://github.com/user-attachments/assets/a0f03058-7fe7-4d0a-8044-a08f2b6565c5" />
+
+# Connect our System to AWS
+
+  !Install AWS CLI from here: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+   Boto3 Library: pip install Boto3
+  
+  1. Now Go Back to AMI Console -> Users and Click on newly created User
+
+  <img width="1319" height="474" alt="image" src="https://github.com/user-attachments/assets/a2e9ade9-354c-459f-8814-5f0e831ab1e1" />
+
+  2. Select 'Security Credentials Tab' , scroll down and click on Create access key
+
+  <img width="1512" height="689" alt="image" src="https://github.com/user-attachments/assets/2bae8ef9-95b4-415f-b484-80ffbc85436e" />
+
+  3. Select CLI , check the recommendation box and click next
+
+  <img width="1375" height="783" alt="image" src="https://github.com/user-attachments/assets/55204583-bbe9-4f01-8f2f-228375775302" />
+
+  4. Click on 'Create Access Key'
+
+  5. Copy the Access Key
+
+  <img width="1729" height="598" alt="image" src="https://github.com/user-attachments/assets/472b5c85-5d58-4312-a186-d90d901811fc" 
+
+  6. Once you have installed AWS CLI from above link, open the terminal in vs code write commands as follows:
+
+  <img width="570" height="114" alt="image" src="https://github.com/user-attachments/assets/bab3077e-31f5-4e52-8c8b-b4cb33cbeb43" />
+
+  7. Enter your Access Key that you copied , press enter and copy the secret access key from AMI , and regionL: us-east-2 or any
+
+  <img width="653" height="81" alt="image" src="https://github.com/user-attachments/assets/e39b5aa5-2d59-4238-a149-352497931023" />
+
+  <img width="688" height="199" alt="image" src="https://github.com/user-attachments/assets/830cf499-1e9f-44e4-871b-9b09d167decf" />
+
+  <img width="712" height="166" alt="image" src="https://github.com/user-attachments/assets/5ff2d385-0f16-4268-af95-befad6739657" />
+
+  <img width="442" height="55" alt="image" src="https://github.com/user-attachments/assets/991a3e81-2c57-4cfd-aed1-602ff6a130c2" />
+
+  Now we have connected our system to AWS 
+
+  
+
+
+  
+
+
+  
+
+     
+
+  
+
+
+
+  
+
+  
+
+
+
 
   
 

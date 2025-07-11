@@ -51,7 +51,7 @@ This user would use python to configure AWS using Boto3
 
   5. Copy the Access Key
 
-  <img width="1729" height="598" alt="image" src="https://github.com/user-attachments/assets/472b5c85-5d58-4312-a186-d90d901811fc" 
+  <img width="1144" height="512" alt="image" src="https://github.com/user-attachments/assets/8640eddd-8cad-48a8-bd1f-d614c83f669a" />
 
   6. Once you have installed AWS CLI from above link, open the terminal in vs code write commands as follows:
 

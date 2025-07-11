@@ -1,5 +1,5 @@
 """
-Script to take create a s3 bucket and store file from local storage to AWS S3
+Script to create a s3 bucket and store file from local storage to AWS S3
 """
 import boto3
 

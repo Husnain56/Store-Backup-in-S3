@@ -33,7 +33,8 @@ This user would use python to configure AWS using Boto3
 # Connect our System to AWS (Skip this step if you have already configured AWS CLI)
 
   !Install AWS CLI from here: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-   Boto3 Library: pip install Boto3
+  
+  Boto3 Library: pip install Boto3
   
   1. Now Go Back to AMI Console -> Users and Click on newly created User
 

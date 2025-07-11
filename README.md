@@ -30,7 +30,7 @@ This user would use python to configure AWS using Boto3
       
   <img width="1692" height="715" alt="image" src="https://github.com/user-attachments/assets/a0f03058-7fe7-4d0a-8044-a08f2b6565c5" />
 
-# Connect our System to AWS (Skip this step if you have already configured AWS CLI)
+# Connect your System to AWS (Skip this step if you have already configured AWS CLI)
 
   !Install AWS CLI from here: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
   
